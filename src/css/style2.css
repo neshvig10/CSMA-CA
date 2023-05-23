@@ -1,0 +1,84 @@
+.page1node1{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    border-radius: 190px;
+    height: 100px;
+    width: 100px;
+}
+
+.page1sendframe{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    border-radius: 10px;
+}
+
+.page1display{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    height: 30px;
+    width: 90px;
+}
+
+
+.connectingwire{
+    background-color: green;
+}
+
+.body{
+    background-color: rgb(138, 203, 233);
+}
+
+
+.status{
+    border-radius: 5px;
+    border-color: red;
+    background-color: lightpink;
+    width: 100px;
+    height: 35px;
+    border-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.user{
+    border-radius: 4px;
+    background-color: rgb(81, 81, 174);
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.userbuto1{
+    width: 140px;
+    height: 50px;
+    border-color:white;
+    background-color: rgb(240, 240, 31);
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.userbuto2{
+    width: 140px;
+    height: 50px;
+    border-color:rgb(82, 4, 251);
+    border-width: 3px;
+    background-color: rgb(240, 240, 31);
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.userbuto3{
+    width: 70px;
+    height: 386spx;
+    border-color:white;
+    background-color: rgb(240, 234, 39);
+    /* margin: 2px; */
+    /* padding: 2px; */
+    border-color: rgb(93, 93, 167);
+    border-width: 5px;
+    border-radius: 4px;
+}
