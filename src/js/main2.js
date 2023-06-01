@@ -11,6 +11,7 @@ const cw3=document.getElementById("cw3");
 const cw4=document.getElementById("cw4");
 const cw5=document.getElementById("cw5");
 
+
 function refreshTime() {
   if (node1sendingframe)
   {
@@ -144,11 +145,11 @@ function collisioncheck(){
   node1sendingframe=false;
   if (channel_busy)
   {
-    alert("Interfered with bot node's signal");
+    displaybox.innerHTML=("Interfered with bot node's signal");
   }
   else
   {
-    alert("Hub Recieved Frame from Node 1 !");
+    displaybox.innerHTML=("Hub Recieved Frame from Node 1 !");
   }
 }
 
