@@ -195,7 +195,7 @@ function channelstatus(){
   channel_busy=false;
   console.log("Botsent");
   botnodesendingframe=false;
-  rand=Math.random()*10;
+  rand=Math.random()*15;
   console.log(rand*1000);
 
   setTimeout(() => {
