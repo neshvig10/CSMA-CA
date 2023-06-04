@@ -15,6 +15,15 @@
     background-color: rgb(236, 168, 168);
 }
 
+
+.btn-danger2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 58, 58);
+    color: white;
+}
+
+
 .body{
     background-color: rgb(107, 186, 223);
 }

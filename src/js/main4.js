@@ -430,3 +430,10 @@ function sendackno() {
     channelcheck();
   }, (Math.random() * 10000));
 }
+
+
+$(document).ready(function(){
+  $('[data-bs-toggle="popover"]').popover({
+  placement : 'top'
+  });
+});

@@ -199,3 +199,9 @@ function botsendframe(){
     channelstatus();
   },traveltime);
 }
+
+$(document).ready(function(){
+  $('[data-bs-toggle="popover"]').popover({
+  placement : 'top'
+  });
+});
