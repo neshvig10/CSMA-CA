@@ -87,6 +87,9 @@
     border-radius: 4px;
 }
 
+.btn-danger{
+    margin: 4px;
+}
 
 .container{
     display: flex;
