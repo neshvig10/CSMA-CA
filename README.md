@@ -5,4 +5,3 @@ This website can be used to learn/educate students about the network protocol CS
 
 Website is live at : https://giant-planes.surge.sh/homepage.html
 
-Web 1.0
