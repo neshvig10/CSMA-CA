@@ -3,7 +3,7 @@
 This website is a virtual model of CSMA/CA protocol under networking techniques.
 This website can be used to learn/educate students about the network protocol CSMA/CA .
 
-Website is live at : https://giant-planes.surge.sh/homepage.html
+Website is live at : https://neshvig10.github.io/CSMA-CA/homepage.html
 
 
 ![image](https://github.com/neshvig10/CSMA-CA/assets/104668723/59e08dba-53d1-4195-afed-caafbaafa5e9)
