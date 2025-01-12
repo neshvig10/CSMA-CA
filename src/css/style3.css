@@ -1,22 +1,36 @@
-.btn-danger{
-    width: 200px;
-    height: 40px;
-    background-color: rgb(251, 0, 0);
-    border-radius: 4px;
-    border-color: red;
-
+.page1node1{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    border-radius: 190px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0px;
 }
 
-.btn-danger1{
-    width: 200px;
-    height: 40px;
-    border-radius: 4px;
-    border-color: rgb(236, 168, 168);
-    background-color: rgb(236, 168, 168);
+.page1sendframe{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.page1display{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    height: 30px;
+    width: 90px;
+}
+
+
+.connectingwire{
+    min-width: 0px;
+    min-height: 0px;
+    background-color: green;
 }
 
 .body{
-    background-color: rgb(28, 158, 218);
+    background-color: rgb(138, 203, 233);
 }
 
 
@@ -72,4 +86,72 @@
     border-color: rgb(93, 93, 167);
     border-width: 5px;
     border-radius: 4px;
+}
+
+.displaybox{
+    background-color: rgb(234, 234, 146);
+    border-color: rgb(234, 234, 146);
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.btn-danger{
+    margin: 4px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+    align-self: center;
+}
+
+.previous{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      left: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(234, 234, 146);
+      border-color: rgb(234, 234, 146); 
+}
+
+.next{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      right: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(234, 234, 146);
+      border-color: rgb(234, 234, 146); 
+}
+
+.statusbox{
+    margin: 100px;
+    margin-top: 100px;
+}
+
+.nodes{
+    margin-top: 100px;
+}
+
+@media (max-width : 480px) {
+
+    .page1node1{
+        height: 60px;
+        width: 60px;
+    }
+
+
+    .connectingwire{
+        min-width: 0px;
+        min-height: 0px;
+        width: 8px !important;
+        height: 5px;
+        background-color: black;
+    }
+
+
+        
 }

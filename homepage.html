@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap -->
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,19 +13,64 @@
       crossorigin="anonymous"
     />
 
-    <!-- title -->
+    <!-- Title -->
     <title>CSMA / CA</title>
 
-    <!-- linking the css file -->
+    <!-- Linking the CSS file -->
     <link rel="stylesheet" href="src/css/style1.css" />
+    <style>
+      /* Custom Responsive Styles */
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa; /* Light gray background for better visuals */
+      }
+
+      h1 {
+        font-size: 2.5rem; /* Responsive font size */
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      button {
+        font-size: 1.2rem; /* Larger button text for better accessibility */
+        padding: 0.8rem 1.5rem;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        button {
+          font-size: 1rem;
+          padding: 0.6rem 1.2rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        button {
+          font-size: 0.9rem;
+          padding: 0.5rem 1rem;
+        }
+      }
+    </style>
   </head>
 
-  <body class="body">
-    <br><br>
-    <center><h1>CSMA / CA</h1></center>
-    <br><br><br>
-    <a href="./page1.html"><center><button type="button" class="btn btn-warning">Start Learning !</button></center></a>
-
-   
+  <body>
+    <h1>CSMA / CA</h1>
+    <a href="./page1.html">
+      <button type="button" class="btn btn-warning">Start Learning!</button>
+    </a>
   </body>
 </html>
